@@ -5,7 +5,7 @@ var size= 40
 
 
 function changeGif() {
-    imgSrc.setAttribute("src","assets/heart.gif")
+    imgSrc.setAttribute("src","heart.gif")
 }
 
 noButton.addEventListener("click",() =>{
