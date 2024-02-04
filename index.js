@@ -9,7 +9,7 @@ function changeGif() {
 }
 
 noButton.addEventListener("click",() =>{
-    imgSrc.setAttribute("src","assets/watch.gif");
+    imgSrc.setAttribute("src","watch.gif");
     setTimeout(changeGif,2000)
     yesButton.style.fontSize = size +"px"
     size = size + 20
